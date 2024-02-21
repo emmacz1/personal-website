@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff; /* Set text color to white */
+    background-image: url('../images/background.jpg'); /* Adjust the path if necessary */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header, footer, main {
+    padding: 20px;
+}
+
+
+header {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for header */
+    color: #fff;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+section {
+    margin-bottom: 40px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: green;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+footer {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Styling for profile picture */
+.profile-picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
